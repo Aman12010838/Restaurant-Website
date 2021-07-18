@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+            background: url(shawn-ang-nmpW_WwwVSc-unsplash.jpg) no-repeat;
+            background-size: cover;
+            backdrop-filter: blur(8px);
+            height: 100vh;
+        }
+
+        .navbar {
+            width: 100%;
+            float: right;
+            /* border: 1px solid black; */
+            background-color: white;
+            height: 10%;
+        }
+
+        .navbar ul {
+            /* float: right; */
+            /* margin-left: 2%; */
+            /* justify-content: center; */
+            text-align: center;
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            font-size: 23px;
+            padding: 6px 13px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: darkslategray;
+        }
+
+        .navbar ul li:hover {
+            background-color: burlywood;
+        }
+
+        /* .navbar ul li a:hover {
+            color: whitesmoke;
+        } */
+
+        .navbar ul li:hover {
+            background-color: burlywood;
+        }
+        /* .navbar ul li a.active, */
+        .navbar ul li a:hover {
+            color: whitesmoke;
+        }
+
+        .head1 {
+            /* margin-top: 2%; */
+            /* font-family: 'Allura', cursive; */
+            font-family: 'Charmonman', cursive;
+            font-size: 100px;
+            color: wheat;
+            text-align: center;
+        }
+
+        .head2 {
+            /* font-family: 'Charmonman', cursive;  */
+            font-family: 'Allura', cursive;
+            font-size: 70px;
+            color: white;
+            background-color: black;
+            text-align: center;
+            margin-top: -3%;
+        }
